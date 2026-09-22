@@ -1,0 +1,51 @@
+export interface Profile {
+  name: string;
+  role: string;
+  institution: string;
+  headline: string;
+  about: string;
+}
+
+export interface MaterialItem {
+  title: string;
+  href?: string;
+  pdf?: string;
+  ppt?: string;
+}
+
+export interface ExperienceItem {
+  title: string;
+  organization: string;
+  period: string;
+  bullets: string[];
+  documents?: MaterialItem[];
+}
+
+export interface StudyItem {
+  degree: string;
+  school: string;
+  years: string;
+  details: string;
+  note: string;
+  documents?: MaterialItem[];
+  image?: MaterialItem;
+}
+
+export interface PublicationItem {
+  filter: 'research' | 'problems' | 'articles';
+  venue: string;
+  title: string;
+  authors: string;
+  link: string;
+}
+
+export interface ContactInfo {
+  email: string;
+  location: string;
+  intro: string;
+}
+
+export interface MaterialSection {
+  section: string;
+  items: MaterialItem[];
+}
