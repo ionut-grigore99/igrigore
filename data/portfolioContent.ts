@@ -27,8 +27,8 @@ export const experiences: ExperienceItem[] = [
     period: "Jul 2025 - Present",
     bullets: [
       "Designing and deploying machine learning models for digital dentistry workflows.",
-      "Working on 2D teeth segmentation, 2D-3D alignment between facial images and intraoral scans, and monocular camera parameter estimation (with a particular focus on estimating the camera's focal length).",
-      "Researching diffusion-based inpainting and image enhancement methods, including automatic white-balance correction for real user photos.",
+      // "Working on 2D teeth segmentation, 2D-3D alignment between facial images and intraoral scans, and monocular camera parameter estimation (with a particular focus on estimating the camera's focal length).",
+      // "Researching diffusion-based inpainting and image enhancement methods, including automatic white-balance correction for real user photos.",
     ],
   },
   {
@@ -51,7 +51,7 @@ export const experiences: ExperienceItem[] = [
     period: "Apr 2024 - Jul 2025",
     bullets: [
       "Contributed to the ProstateAI project: fully automated AI workflow for prostate MRI examination.",
-      "Improved the false-positive reduction model within ProstateAI, enhancing lesion-level specificity and overall system reliability.",
+      // "Improved the false-positive reduction model within ProstateAI, enhancing lesion-level specificity and overall system reliability.",
     ],
   },
   {
@@ -59,9 +59,10 @@ export const experiences: ExperienceItem[] = [
     organization: "Amazon (Ring)",
     period: "Nov 2022 - Apr 2024",
     bullets: [
-      "Researched and evaluated SOTA methods for depth completion, feature detection/matching, semantic segmentation, and pose estimation.",
-      "Developed and improved models for Ring drone perception tasks, including dock segmentation and positional offset estimation.",
-      "Advanced SuperPoint-style feature pipelines, leading to acceptance at EEML 2025 for presenting feature detection and matching work.",
+      "Developed machine learning solutions for Amazon Ring's autonomous drone technology.",
+      // "Researched and evaluated SOTA methods for depth completion, feature detection/matching, semantic segmentation, and pose estimation.",
+      // "Developed and improved models for Ring drone perception tasks, including dock segmentation and positional offset estimation.",
+      // "Advanced SuperPoint-style feature pipelines, leading to acceptance at EEML 2025 for presenting feature detection and matching work.",
     ],
   },
   {
